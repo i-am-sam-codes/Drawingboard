@@ -4,7 +4,7 @@ const container = document.querySelector('.wrapper');
 
 function createGrid(size) {
     let gridSize = size * size;
-    let grid = document.getElementById('cont')
+    let grid = document.getElementById('cont');
     container.style.gridTemplateColumns = `repeat(${size}, 1fr)`;
     container.style.gridTemplateRows = `repeat(${size}, 1fr)`;
     for (let i = 0; i <= gridSize; i++) {
