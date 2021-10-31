@@ -1,0 +1,40 @@
+
+
+body {
+    background-color: teal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.wrapper{
+    height: 400px;
+    width: 400px;
+    background: white;
+    border: 1px solid black;
+}
+
+#clearboard {
+    background-color: black;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 500px;
+
+    
+}
+
+
+.cell {
+    background-color: thistle;
+    border: 1px solid black;
+}
