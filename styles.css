@@ -8,6 +8,7 @@ body {
     padding-top: 100px;
     background-color: teal;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
@@ -16,7 +17,10 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 10px;
+    font-family: sans-serif;
+    font-weight: bolder;
+
+    
 }
 
 .container,
@@ -31,8 +35,11 @@ h1 {
 
 
 button {
+    font-weight: bold;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    border-radius: 13%;
     background-color: black;
-    
     color: white;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -41,12 +48,10 @@ button {
 }
 
 
+
+
 .cell {
     
     border: .5px solid black;
 }
 
-#blue {
-    color: coral;
-    
-}
