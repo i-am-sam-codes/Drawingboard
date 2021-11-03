@@ -3,9 +3,10 @@ const container = document.querySelector('.container');
 
 let color = 'black';
 
+
 //creating our grid takes in a size and creates SIZE amount of divs in the container class we called 
 function createGrid(size) {
-    let gridSize = size * size;
+    const gridSize = size * size;
     container.style.gridTemplateColumns = `repeat(${size}, 1fr)`;
     container.style.gridTemplateRows = `repeat(${size}, 1fr)`;
     
@@ -25,6 +26,17 @@ function createGrid(size) {
 
 createGrid(16);
 
+
+//function to prompt the user to change grid size
+function changeGridSize() {
+    const message = prompt('Enter a number for your grid!');
+    
+    if (message != null) {
+        const size = message;
+        createGrid(size);
+    };
+   
+};
 //function for color change runs through HTML onclick
 function changeColor(newColor) {
     color = newColor; 
