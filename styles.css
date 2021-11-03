@@ -19,8 +19,6 @@ h1 {
     align-items: center;
     font-family: sans-serif;
     font-weight: bolder;
-
-    
 }
 
 .container,
@@ -29,10 +27,7 @@ h1 {
     background-color: white;
     height: 500px;
     width: 500px;
-    
-    
 }
-
 
 button {
     font-weight: bold;
@@ -47,11 +42,6 @@ button {
     padding-right: 10px;
 }
 
-
-
-
 .cell {
-    
     border: .5px solid black;
 }
-
