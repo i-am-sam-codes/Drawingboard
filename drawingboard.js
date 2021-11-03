@@ -27,6 +27,7 @@ function createGrid(size) {
 createGrid(16);
 
 
+
 //function to prompt the user to change grid size
 function changeGridSize() {
     const message = prompt('Enter a number for your grid!');
