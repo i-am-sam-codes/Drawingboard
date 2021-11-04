@@ -28,30 +28,17 @@ createGrid(16);
 
 
 
-//function to prompt the user to change grid size
+//function to prompt the user to change grid size and go through node list and remove elements 
 function changeGridSize() {
     const message = prompt('Enter a number for your grid!');
     const nodeList = document.querySelectorAll('.cell');
-    nodeList.forEach(element => element.remove())
-    // while (removeElement.length > 0) {
-        // removeElement[0].remove();
-        // removeElement[0].parentNode.removeChild(removeElement[0]);
-    // }
-    // removeElement.container.removeChild(removeElement);
-    // for (let i = 0; i <= removeElement.length ; i--) {
-        // const element = removeElement[i];
-        // element.remove(removeElement[i]);
-    // }
- 
-    // removeElement.remove();
+    nodeList.forEach(element => element.remove());
 
     if (message != null) {
         const size = message;
         createGrid(size);
     };
    
-   
-
 };
 //function for color change runs through HTML onclick
 function changeColor(newColor) {
