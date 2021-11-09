@@ -40,3 +40,9 @@ function changeGridSize() {
 function changeColor(newColor) {
     color = newColor; 
 };
+
+function getColor() {
+    const colorPicker = document.getElementById('color_picker');
+    const color = colorPicker.value;
+    changeColor(color);
+};

@@ -11,6 +11,8 @@
 <body>
     <h1>Drawing Board 🖌</h1>
     <div class="buttons">
+        <input type="color" id="color_picker" oninput="getColor()"> 
+        <label for="color_picker">Color Selector</label>
         <button id="size" onclick="changeGridSize()">SIZE</button>
         <button id=clearboard onclick="changeColor('white')">ERASER</button>
         <button id="yellow" onclick="changeColor('yellow')">YELLOW</button>
