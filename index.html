@@ -10,20 +10,22 @@
 
 <body>
     <h1>Drawing Board 🖌</h1>
-    <div class="buttons">
+    <div class="colorSelector">
+        <label for="color_picker">Select Color👇</label>
         <input type="color" id="color_picker" oninput="getColor()"> 
-        <label for="color_picker">Color Selector</label>
+    </div>
+    <div class="buttons">
+
         <button id="size" onclick="changeGridSize()">SIZE</button>
         <button id=clearboard onclick="changeColor('white')">ERASER</button>
         <button id="yellow" onclick="changeColor('yellow')">YELLOW</button>
         <button id="red" onclick="changeColor('red')">RED</button>
         <button id="blue" onclick="changeColor('blue')">BLUE</button>
         <button id="green" onclick="changeColor('green')">GREEN</button>
-        
+
     </div>
     
     <div class="container" id="container"></div>
-    
     
     <script src="drawingboard.js"></script>
 </body>
