@@ -4,7 +4,7 @@
 
 ## Description
 
-A project where I really learned how to us my DOM manipulation skills.
+A project where I really learned how to use my DOM manipulation skills.
 Using JavaScript, HTML, and CSS.
 
 ## Getting Started 
